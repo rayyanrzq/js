@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pad {
+    display: flex;
+    gap: 25px;
+    margin: 50px;
+}
+
+.box {
+    inline-size: 50px;
+    block-size: 50px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.strong-box {
+    border: 10px solid black;
+}
